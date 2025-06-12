@@ -30,16 +30,6 @@ const SettingsPage = () => {
         if (savedTheme) {
             setSelectedTheme(savedTheme);
         }
-        // Example: Load notification preference (you'd fetch this)
-        // const fetchNotificationPreference = async () => {
-        //   try {
-        //     const res = await api.get('/api/settings/notifications');
-        //     setAllowNotifications(res.data.allowNotifications);
-        //   } catch (error) {
-        //     console.error("Failed to load notification settings", error);
-        //   }
-        // };
-        // fetchNotificationPreference();
     }, []);
 
     // Apply theme when selectedTheme changes
